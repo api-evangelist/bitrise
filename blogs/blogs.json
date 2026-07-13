@@ -1,0 +1,14 @@
+{
+  "repo": "bitrise",
+  "feeds": [
+    {
+      "source": "https://bitrise.io/blog",
+      "feed_url": "https://bitrise.io/blog/rss.xml",
+      "title": "",
+      "saved": 2,
+      "method": "discovered"
+    }
+  ],
+  "fetched": "2026-07-11T11:50:51Z",
+  "post_count": 7
+}
