@@ -1,4 +1,16 @@
 aid: bitrise
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bitrise.png
 name: Bitrise
 description: "Build tool and processes integrations to create efficient development pipelines"
 url: https://api-docs.bitrise.io/
