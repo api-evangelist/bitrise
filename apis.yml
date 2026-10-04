@@ -40,7 +40,6 @@ apis:
   - name: Bitrise
     description: "Build tool and processes integrations to create efficient development pipelines"
     humanURL: https://api-docs.bitrise.io/
-    baseURL: https://api-docs.bitrise.io/
     tags:
       - Continuous Integration
     properties:
