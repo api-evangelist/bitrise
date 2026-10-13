@@ -1,0 +1,21 @@
+generated: '2026-10-13'
+method: searched
+checked:
+- https://aws.amazon.com/marketplace/
+marketplace_apps: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=1f0d67af-fe8e-487c-abd8-364ecf626f8e
+  listing_count: 1
+  apps:
+  - Bitrise Enterprise for Mobile CI/CD - SaaS
+  seller_name: Bitrise
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
