@@ -4,6 +4,7 @@ checked:
 - https://aws.amazon.com/marketplace/
 - https://github.com/marketplace?type=apps
 - https://registry.modelcontextprotocol.io/v0/servers
+- slack/integrations/slack-integration-edges.yml
 marketplace_apps: []
 edges:
 - partner_name: AWS Marketplace
@@ -69,5 +70,22 @@ edges:
   - remote-domain
   detected_by: sweep-agent-tools.py
   first_seen: '2026-10-14'
+- partner_name: Slack (own)
+  partner: slack
+  partner_match: mirror
+  mirror_match: domain
+  type: marketplace
+  relationship: platform-app
+  direction: third-party
+  channel: partner-built
+  marketplace: own
+  evidence: https://slack.com/marketplace/A081GHNAG3U-bitrise
+  mirror_of: slack/integrations/slack-integration-edges.yml
+  apps:
+  - Bitrise
+  listing_count: 1
+  detected: '2026-10-18'
+  detected_by: mirror-platform-listings.py
+  category: Slack app
 source:
 - https://github.com/marketplace?type=apps
